@@ -14,9 +14,10 @@
 # Ignore IntelliJ configuration files
 .idea/
 
-# Ignore cabal build directory.
+# Ignore cabal and stack build directories
 dist
 dist-newstyle
+.stack-work
 
 # Ignore IDE info
 .hie
@@ -53,3 +54,14 @@ testparser/
 
 # Ignore macOS system files.
 .DS_Store
+
+# Ignore updo files
+.updo
+updo
+
+# Don't ignore Updo makefiles and generated projects.
+!stack.yaml
+!stack.yaml.lock
+!cabal.project
+!project-files.mk
+!project-versions.mk
