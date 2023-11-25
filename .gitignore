@@ -63,5 +63,6 @@ updo
 !stack.yaml
 !stack.yaml.lock
 !cabal.project
+!cabal.upgrade.project
 !project-files.mk
 !project-versions.mk
