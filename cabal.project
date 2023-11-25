@@ -1,7 +1,13 @@
-packages: futhark.cabal
+program-options
+  ghc-options: -fhide-source-paths
+
 index-state: 2023-11-22T20:04:53Z
 
 package futhark
   ghc-options: -j -fwrite-ide-info -hiedir=.hie
 
-allow-newer: versions:base, versions:text, generic-lens:text, generic-lens-core:text
+import: https://stackage.org/nightly-2023-11-25/cabal.config
+
+import: ./project-cabal/pkgs.config
+import: ./project-cabal/ghc-9.6.3/constraints.config
+build-info: True
