@@ -4,8 +4,8 @@ GHC_VERSION ?= 9.6.3
 STACKAGE_VERSION ?= nightly-2023-11-25
 
 # For the upgrade, pick a matching pair of ghc-version and stack resolver.
-GHC_UPGRADE ?= 9.6.3
-STACKAGE_UPGRADE ?= nightly-2023-11-25
+GHC_UPGRADE ?= 9.8.1
+STACKAGE_UPGRADE ?= empty
 
 # Imports can be relative to the project or relative to importing file.
 # ImportRelative works with cabal-3.10 and is the default.
