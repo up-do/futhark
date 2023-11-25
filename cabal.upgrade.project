@@ -12,8 +12,8 @@ allow-newer:
   , generic-lens:text
   , generic-lens-core:text
 
-import: ./project-stackage/empty.config
+import: ./project-stackage/ghc-9.8.1.config
 
 import: ./project-cabal/pkgs.config
-import: ./project-cabal/ghc-9.8.1/constraints.config
+import: ./project-cabal/ghc-9.8.1-compiler/constraints.config
 build-info: True
