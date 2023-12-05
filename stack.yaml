@@ -6,27 +6,11 @@ ghc-options:
 
 resolver: nightly-2023-11-25
 
-# We have 1 packages.
+# We have 1 package.
 packages:
   - ./.
 
-# We have 0 source packages listed in this order:
-#   * external 0
-#   * internal 0
-#   * external forks 0
-#   * internal forks 0
 extra-deps:
-
-  # Source Packages, external (3rd party).
-
-  # Source Packages, internal to this organisation (private and public).
-
-  # Source Packages, external (3rd party) forks of other repositories.
-  # Can we help upstream?
-
-  # Source Packages, internal forks of other repositories.
-  # Can we upstream and unfork?
-
   # Package versions for published packages either not on Stackage or
   # not matching the version on Stackage for the resolver we use.
   # These package-version extra dependencies are equivalent to cabal constraints.

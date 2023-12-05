@@ -187,9 +187,9 @@ packages:
   original:
     hackage: lens-5.2.3
 - completed:
-    hackage: lsp-2.3.0.0@sha256:d61c26c931b03ed2d115729ea7bf94e9cc91761278199b466f4f8110b0704c2f,3700
+    hackage: lsp-2.3.0.0@sha256:b21f38d07a75db14fd72fd944238c76fc9fe40b8b11aee8940db520342475d96,3686
     pantry-tree:
-      sha256: 812f36706a54d6fd885ee2d694215e11dc21f41a7cc89acb979f97eaf3d71196
+      sha256: 4ceacfdb0fe66f4e1e63d1131dc1300c42c381a14e2b67a105836ca58939a84b
       size: 1044
   original:
     hackage: lsp-2.3.0.0
@@ -901,9 +901,9 @@ packages:
   original:
     hackage: fmlist-0.9.4
 - completed:
-    hackage: generic-lens-2.2.2.0@sha256:7e2e9fb6af836c31f7b7fe9ad4d54974acb44f8f2f8b507ca8866c4ccc060f16,3962
+    hackage: generic-lens-2.2.2.0@sha256:89dcd1dc551c823b7c3692890595d1f17011bfe82ac6175803db149811416945,3936
     pantry-tree:
-      sha256: d689de290e2e51b207e78e65378b1142f0617a6ae3ce04d278561100e5ded4f6
+      sha256: 586f711a0e9d89075c39cd629d4a84c23084cbefcceb652ee3aa714200a51f63
       size: 2470
   original:
     hackage: generic-lens-2.2.2.0
@@ -978,9 +978,9 @@ packages:
   original:
     hackage: boring-0.2.1
 - completed:
-    hackage: generic-lens-core-2.2.1.0@sha256:d6e1d5ac9b403d9451953bd811a983b292f59aed6227485c52f8fa334d8372b5,3045
+    hackage: generic-lens-core-2.2.1.0@sha256:0d2ff39f7dc8d45901cbba584c9e400d0b7dcc1a306f46dcb13bb28420a81b09,3013
     pantry-tree:
-      sha256: 8caf6dbc7d6f61c80ec775c95ae718ad27de36bd87660c723810f166f68ef0b5
+      sha256: e724e6c21ec3d2ebcfe10d2d2ec33cb0f80d98ae90c87caf1dc784eca95cc36d
       size: 2202
   original:
     hackage: generic-lens-core-2.2.1.0
