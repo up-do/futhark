@@ -8,8 +8,9 @@ STACKAGE_VERSION ?= nightly-2023-11-25
 # with a ghc-x.y.z resolver that for stack means packages shipped with the
 # compiler.
 
+# GHC_UPGRADE=9.8.1-empty STACKAGE_UPGRADE=ghc-9.8.1 make -f project-files.mk upgrade-projects
 # GHC_UPGRADE ?= 9.8.1-empty
-# STACKAGE_UPGRADE ?= empty
+# STACKAGE_UPGRADE ?= ghc-9.8.1
 
 GHC_UPGRADE ?= 9.8.1-compiler
 STACKAGE_UPGRADE ?= ghc-9.8.1
